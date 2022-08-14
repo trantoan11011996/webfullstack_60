@@ -20,4 +20,9 @@
         npm init 
         npm i express
         npm i nodemon
+
+        restfull api : là 1 cổng để client connect tới để lấy dữ liệu và dạng trả về là JSON
+
+        các thư viện validate data : joi validate , express validation ( các thư viện kiểm tra dữ liệu đc gởi lên server )
+        express-generator : thư viện - tool định hình thư viện cấu trúc
 */

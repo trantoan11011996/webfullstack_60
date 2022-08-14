@@ -1,0 +1,7 @@
+1. tạo ra một middleware và sử dụng
+2. Phân chia layout => sử dụng template engine
+
+3. lướt qua MongoDB = database
+4. so sánh noSQL và SQL ==> cơ sở dữ liệu ?
+ => thực hành CRUD với mongo sử dụng nodejs và expressjs
+ 

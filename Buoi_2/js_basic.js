@@ -167,7 +167,7 @@ const promiseMethod = new Promise(function (resolve, reject){
     // resolve(jsonData) // khi resolve được gọi thì chạy vào .then, khi reject được gọi thì chạy vào catch
     const errorNote = "Can't not get data"
     reject(errorNote);
-})
+})  
 promiseMethod
 .then((jsonData)=>{
     console.log('hàm resolve được gọi : success' , jsonData)
@@ -175,8 +175,6 @@ promiseMethod
     console.log('new',newData)
 })
 .catch((err)=>{   /// có thể dùng để thực hiện 1 tác vụ nào đó hoặc đơn giản là ném ra lỗi thôi !!!!
-    let a = 1;
-    let b = 2;
-    console.log(a+b)
+    console.log(err)
     throw err
 })
